@@ -1,0 +1,81 @@
+
+.quote {
+  background-color: white;
+  padding: 160px;
+  margin: 20px;
+}
+
+.quote h2 {
+  font-size: 24px;
+  color: #332b2b;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.deal {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.deal h2 {
+  font-size: 24px;
+  color: #332b2b;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.deal p {
+  color: #332b2b;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-body h2 {
+  font-size: 20px;
+  color: #332b2b;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-body p {
+  color: #332b2b;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card a {
+  display: block;
+  color: #332b2b;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: #d4aaaa;
+}
